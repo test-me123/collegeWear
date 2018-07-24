@@ -86,22 +86,6 @@ WebUI.click(findTestObject('Object Repository/page3/greeekCrest/img_Phi Mu'))
 
 
 
-WebUI.click(findTestObject('Object Repository/page3/greeekCrestnew/div_search'))
-Thread.sleep(6000)
-WebUI.setText(findTestObject('Object Repository/page3/greeekCrest/innerSearch'), "Phi Mu")
-WebUI.click(findTestObject('Object Repository/page3/greeekCrest/img_Phi Mu'))
-
-WebUI.click(findTestObject('Object Repository/page3/greeekCrestnew/div_search'))
-Thread.sleep(6000)
-WebUI.setText(findTestObject('Object Repository/page3/greeekCrest/innerSearch'), "Phi Mu")
-WebUI.click(findTestObject('Object Repository/page3/greeekCrest/img_Phi Mu'))
-
-WebUI.click(findTestObject('Object Repository/page3/greeekCrestnew/div_search'))
-Thread.sleep(6000)
-WebUI.setText(findTestObject('Object Repository/page3/greeekCrest/innerSearch'), "Phi Mu")
-WebUI.click(findTestObject('Object Repository/page3/greeekCrest/img_Phi Mu'))
-
-
 
 
 
