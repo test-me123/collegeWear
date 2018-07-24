@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>closeButton</name>
+   <tag></tag>
+   <elementGuidId>2f7689b0-91e9-4744-bbde-c6004512e6c0</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../images/popupClose.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;imagemodal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content modal_conflict_class&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

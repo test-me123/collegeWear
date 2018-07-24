@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_close</name>
+   <tag></tag>
+   <elementGuidId>ada1e8db-0260-4a2e-a9cc-2ff1743edf2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;imagemodal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content modal_conflict_class&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close&quot;][count(. | //*[@class = 'close']) = count(//*[@class = 'close'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>close</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dismiss</name>
+      <type>Main</type>
+      <value>modal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;imagemodal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content modal_conflict_class&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

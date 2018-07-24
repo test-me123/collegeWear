@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_horizontal-2</name>
+   <tag></tag>
+   <elementGuidId>84a57b5c-a4ef-4037-a3f0-e261f465829b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>horizontal-2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step3_left_part_greek&quot;)/div[@class=&quot;font_style font_style2&quot;]/div[@class=&quot;text_direction_2&quot;]/div[@class=&quot;items&quot;]/span[@class=&quot;horizontal-2&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

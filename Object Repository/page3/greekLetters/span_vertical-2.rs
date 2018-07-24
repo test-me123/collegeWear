@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_vertical-2</name>
+   <tag></tag>
+   <elementGuidId>f17e720b-2d75-425d-a655-e18706a87e49</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vertical-2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step3_left_part_greek&quot;)/div[@class=&quot;font_style font_style2&quot;]/div[@class=&quot;text_direction_2&quot;]/div[@class=&quot;items&quot;]/span[@class=&quot;vertical-2&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

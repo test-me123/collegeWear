@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>arrowUp</name>
+   <tag></tag>
+   <elementGuidId>d8b5057f-8105-4617-97ca-5ede0ade1084</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../images/arrow_up.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontainer&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;middle_container&quot;]/div[@class=&quot;right_part&quot;]/div[@class=&quot;quantity&quot;]/div[@class=&quot;quantity-nav&quot;]/div[@class=&quot;quantity-button quantity-up&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

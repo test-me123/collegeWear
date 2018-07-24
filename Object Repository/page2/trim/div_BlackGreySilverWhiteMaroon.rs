@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_BlackGreySilverWhiteMaroon</name>
+   <tag></tag>
+   <elementGuidId>40760ede-6024-4877-90f5-b140e34b3d1b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>trim_color_picker</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BlackGreySilverWhiteMaroonRed CardinalRedBurgundyHot PinkPinkBrownOrangeOld GoldYellow GoldHunter GreenKelly GreenTealTurquoiseLight BlueNavy BluePurpleRoyal BlueColumbia BlueLavenderMetallic GoldAsian Pacific (purple)Asian Pacific (black)Asian Pacific (blue)Asian Pacific (red)Kente (black)Native AmericanTest</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontainer&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;middle_container&quot;]/div[@class=&quot;left_part&quot;]/div[@class=&quot;color_picker&quot;]/div[@class=&quot;trim_color_picker&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_slanted_left-2</name>
+   <tag></tag>
+   <elementGuidId>faeb8828-e586-4db5-b9c1-607b9f0f21fd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slanted_left-2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step3_left_part_greek&quot;)/div[@class=&quot;font_style font_style2&quot;]/div[@class=&quot;text_direction_2&quot;]/div[@class=&quot;items&quot;]/span[@class=&quot;slanted_left-2&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
