@@ -37,4 +37,37 @@ WebUI.click(findTestObject('Object Repository/page3/closeButton1/flagClose'))
 Thread.sleep(5000)
 WebUI.click(findTestObject('Object Repository/page3/flag/div_cancel'))
 Thread.sleep(5000)
-WebUI.click(findTestObject('Object Repository/page3/a_Next'))
+
+//select the flag
+WebUI.click(findTestObject('Object Repository/page3/div_flag'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/flag/img_Benin'))
+WebUI.click(findTestObject('Object Repository/page3/flag/flagOkay/div_ok'))
+
+//search the flag
+WebUI.click(findTestObject('Object Repository/page3/div_flag'))
+Thread.sleep(5000)
+WebUI.setText(findTestObject('Object Repository/page3/flag/div_search'), "albania")
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/flag/img_albania'))
+
+//place the flag on right
+WebUI.click(findTestObject('Object Repository/page3/flag/div_right'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/flag/div_ok'))
+
+
+//place the flag on neck
+WebUI.click(findTestObject('Object Repository/page3/div_flag'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/flag/img_Benin'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/flag/div_neck'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/flag/div_ok'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/flag/div_Front'))
+Thread.sleep(5000)
+
+
+WebUI.closeBrowser()
