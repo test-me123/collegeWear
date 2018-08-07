@@ -111,7 +111,6 @@ Thread.sleep(8000)
 catch(Exception e)
 {
 System.out.println("Drop Down not selected")
-
 WebUI.click(findTestObject('Object Repository/pageCheckOut/placeOrder/button_Place order'))
 }
 
