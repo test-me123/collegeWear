@@ -4,6 +4,8 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import org.eclipse.persistence.internal.jpa.parsing.jpql.antlr.JPQLParser.selectItem_return
+import org.junit.After
+import org.openqa.selenium.By
 import org.openqa.selenium.By.ByClassName
 import org.openqa.selenium.By.ById
 import org.openqa.selenium.WebDriver
@@ -98,4 +100,20 @@ WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_phone
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_postcode'), "500210")
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_state'), "State")
 
+try{
+WebDriver driver
+e=driver.findElement(By.id("ship-to-different-address-checkbox")).click()
+
+Select s=new Select(WebElement e=driver.findElement(By.id("billing_country")).click())
+s.selectByValue("AL")
+Thread.sleep(8000)
+}
+catch(Exception e)
+{
+System.out.println("Drop Down not selected")
+
 WebUI.click(findTestObject('Object Repository/pageCheckOut/placeOrder/button_Place order'))
+}
+
+
+
