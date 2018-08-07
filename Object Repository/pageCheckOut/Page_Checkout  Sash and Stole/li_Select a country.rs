@@ -4,10 +4,16 @@
    <name>li_Select a country</name>
    <tag></tag>
    <elementGuidId>4704df97-89c4-4e14-aae3-9dfb75e07ee9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/li[@class=&quot;select2-results__option select2-results__option--highlighted&quot;][count(. | //*[(text() = 'Select a country…' or . = 'Select a country…')]) = count(//*[(text() = 'Select a country…' or . = 'Select a country…')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -56,7 +62,7 @@
       <value>Select a country…</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

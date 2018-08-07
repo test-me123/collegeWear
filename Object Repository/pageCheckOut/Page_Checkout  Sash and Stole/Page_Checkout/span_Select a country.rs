@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Place order</name>
+   <name>span_Select a country</name>
    <tag></tag>
-   <elementGuidId>a5dacf09-14c6-45c2-a371-8d7447445405</elementGuidId>
+   <elementGuidId>53430154-d676-4489-ab3c-462872de9fce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;place_order&quot;)[count(. | //*[@id = 'place_order' and (text() = 'Place order' or . = 'Place order')]) = count(//*[@id = 'place_order' and (text() = 'Place order' or . = 'Place order')])]</value>
+         <value>id(&quot;select2-billing_country-container&quot;)[count(. | //*[@id = 'select2-billing_country-container']) = count(//*[@id = 'select2-billing_country-container'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,62 +17,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-checkout</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>woocommerce_checkout_place_order</value>
+      <value>select2-selection__rendered</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>place_order</value>
+      <value>select2-billing_country-container</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>role</name>
       <type>Main</type>
-      <value>Place order</value>
+      <value>textbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-value</name>
+      <name>aria-readonly</name>
       <type>Main</type>
-      <value>Place order</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Select a country…</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Place order</value>
+      <value>Select a country…</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;place_order&quot;)</value>
+      <value>id(&quot;select2-billing_country-container&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
