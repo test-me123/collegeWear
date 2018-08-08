@@ -37,9 +37,9 @@ Thread.sleep(5000)
 WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_left'))
 //WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_Zoom'))
 //WebUI.click()
-//WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_Back'))
-//
-//WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_Front'))
+WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_Back'))
+
+WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_Front'))
 WebUI.click(findTestObject('Object Repository/page3/greekLetters/span_horizontal-2'))
 WebUI.click(findTestObject('Object Repository/page3/greekLetters/span_slanted_left-2'))
 WebUI.click(findTestObject('Object Repository/page3/greekLetters/span_slanted_right-2'))
