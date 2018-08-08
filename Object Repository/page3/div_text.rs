@@ -7,42 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;design_text&quot;)[count(. | //div[@id = 'design_text' and @class = 'design_btn' and (text() = '
-                text
-            ' or . = '
-                text
-            ')]) = count(//div[@id = 'design_text' and @class = 'design_btn' and (text() = '
-                text
-            ' or . = '
-                text
-            ')])]</value>
+         <value>id(&quot;design_text&quot;)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>design_text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>design_btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

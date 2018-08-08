@@ -19,3 +19,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('http://newcollegewear.dev-fsit.com/sash-app/step/1')
+WebUI.maximizeWindow()
+//CustomKeywords.'com.collegeWear.stoleSelection.stoleSelection.selectedStole'()
+//CustomKeywords.'com.collegeWear.stoleColor.stoleColors.stolecolourss'()
+
+//--------------------step 2----------------------------------------
+WebUI.click(findTestObject('Object Repository/page1/nextPage'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page2/stole/span_Brown'))
+WebUI.click(findTestObject('Object Repository/page2/a_Next'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/div_greek letters'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_right'))
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_left'))
+//WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_Zoom'))
+//WebUI.click()
+//WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_Back'))
+//
+//WebUI.click(findTestObject('Object Repository/page3/greekLetters/div_Front'))
+WebUI.click(findTestObject('Object Repository/page3/greekLetters/span_horizontal-2'))
+WebUI.click(findTestObject('Object Repository/page3/greekLetters/span_slanted_left-2'))
+WebUI.click(findTestObject('Object Repository/page3/greekLetters/span_slanted_right-2'))
+WebUI.click(findTestObject('Object Repository/page3/greekLetters/span_vertical-2'))
+
+
