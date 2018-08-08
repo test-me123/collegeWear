@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;mCSB_3_container&quot;)/input[@class=&quot;d-input s-input&quot;][count(. | //*[@class = 'd-input s-input']) = count(//*[@class = 'd-input s-input'])]</value>
+         <value>//*[@class = 'd-input s-input' and @placeholder = 'Search']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Search']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,14 +38,14 @@
       <value>d-input s-input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

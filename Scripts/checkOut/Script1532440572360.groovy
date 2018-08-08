@@ -73,15 +73,17 @@ Thread.sleep(5000)
 WebUI.click(findTestObject('Object Repository/page3/flag/div_cancel'))
 Thread.sleep(5000)
 WebUI.click(findTestObject('Object Repository/page3/a_Next'))
-//-------------step 4---------------------
+
+//-------------Step 4-----------------------------------
 Thread.sleep(5000)
 WebUI.click(findTestObject('Object Repository/page4/a_Save to cart'))
 Thread.sleep(5000)
-//--------------------------cart----------------------
+
+//--------------------------Cart-------------------------
 WebUI.click(findTestObject('Object Repository/pageCart/a_Proceed to checkout'))
 Thread.sleep(5000)
-//------------------checkout-----------------------------
 
+//------------------Checkout-----------------------------
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_address_1'), "addrtesss 1")
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_address_2'), "address 222")
 
@@ -89,12 +91,6 @@ WebUI.click(findTestObject('Object Repository/pageCheckOut/span_Select a country
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/Page_Checkout  Sash and Stole/Page_Checkout  Sash and Stole/search_Country'), "Algeria")
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/Page_Checkout  Sash and Stole/Page_Checkout  Sash and Stole/search_Country'),Keys.chord(Keys.ENTER))
 
-
-
-//WebUI.selectOptionByValue(findTestObject('Object Repository/pageCheckOut/span_Select a country'), 'AL', false)
-
-
-//WebUI.selectOptionByValue(findTestObject('Object Repository/pageCheckOut/Page_Checkout  Sash and Stole/li_Select a country'), 'AS', false)
 Thread.sleep(5000)
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_city'), "City city")
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_company'),"companies" )
@@ -105,22 +101,17 @@ WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_phone
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_postcode'), "500210")
 WebUI.setText(findTestObject('Object Repository/pageCheckOut/input_billing_state'), "State")
 Thread.sleep(5000)
-
 WebUI.click(findTestObject('Object Repository/pageCheckOut/Page_Checkout  Sash and Stole/Page_Checkout/input_ship_to_different_addres'))
-
 Thread.sleep(6000)
 WebUI.click(findTestObject('Object Repository/pageCheckOut/placeOrder/button_Place order'))
 Thread.sleep(6000)
-//-----------------pay your order--------------
+//-----------------Pay your Order-------------------------
 WebUI.click(findTestObject('Object Repository/payYourOrder/input_submit_authorize_payment'))
-
-
-//--------------Authorize.net----------------------
-
+//------------------Authorize.net--------------------------
 WebUI.setText(findTestObject('Object Repository/Page_Payment Form/input_x_card_num'), "4111111111111111")
 WebUI.setText(findTestObject('Object Repository/Page_Payment Form/input_x_exp_date'), "0223")
 WebUI.click(findTestObject('Object Repository/Page_Payment Form/input_btnSubmit'))
-
+//-------------Close browser--------------------------------
 WebUI.closeBrowser()
 
 

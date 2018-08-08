@@ -76,7 +76,7 @@ WebUI.setText(findTestObject('Object Repository/page3/greeekCrest/innerSearch'),
 WebUI.click(findTestObject('Object Repository/page3/greeekCrest/img_Phi Mu'))
 
 
-//-------------------outer search---------------------
+//-------------------outer search---------------not working------
 
 WebUI.click(findTestObject('Object Repository/page3/greeekCrestnew/div_search'))
 Thread.sleep(6000)
