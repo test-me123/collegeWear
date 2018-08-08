@@ -3,15 +3,15 @@
    <description></description>
    <name>div_text</name>
    <tag></tag>
-   <elementGuidId>48864033-0c3e-4436-bd4e-c2dd4b2d1a4c</elementGuidId>
+   <elementGuidId>3d9eff60-7c81-4bdd-8072-f72aa99d8727</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;design_text&quot;)[count(. | //div[@id = 'design_text' and @class = 'design_btn' and (text() = '
+         <value>id(&quot;design_text&quot;)[count(. | //div[@id = 'design_text' and (text() = '
                 text
             ' or . = '
                 text
-            ')]) = count(//div[@id = 'design_text' and @class = 'design_btn' and (text() = '
+            ')]) = count(//div[@id = 'design_text' and (text() = '
                 text
             ' or . = '
                 text
@@ -35,7 +35,7 @@
       <value>design_text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

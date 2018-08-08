@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
+
 //
 WebUI.openBrowser('http://newcollegewear.dev-fsit.com/sash-app/step/1')
 
@@ -28,11 +29,12 @@ WebUI.maximizeWindow()
 //CustomKeywords.'com.collegeWear.stoleColor.stoleColors.stolecolourss'()
 //--------------------step 2----------------------------------------
 WebUI.click(findTestObject('Object Repository/page1/nextPage'))
-
-Thread.sleep(5000)
 WebUI.click(findTestObject('Object Repository/page2/stole/span_Brown'))
 WebUI.click(findTestObject('Object Repository/page2/a_Next'))
-WebUI.click(findTestObject('Object Repository/page3/div_text'))
+
+
+Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/page3/Text/Page_Sash Builder/div_text'))
 WebUI.click(findTestObject('Object Repository/page3/Text/textarea_Class of 2018'))
 WebUI.click(findTestObject('Object Repository/page3/Text/span_slanted_right'))
 WebUI.click(findTestObject('Object Repository/page3/Text/span_slanted_left'))
